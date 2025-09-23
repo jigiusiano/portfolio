@@ -1453,6 +1453,14 @@ canvas.addEventListener('mousemove', e => {
     updatePointerMoveData(pointer, posX, posY);
 });
 
+window.addEventListener("externalMouseMove", (e) => {
+    let pointer = pointers[0];
+    let posX = scaleByPixelRatio(e.detail.offsetX);
+    let posY = scaleByPixelRatio(e.detail.offsetY);
+
+    updatePointerMoveData(pointer, posX, posY);
+});
+
 window.addEventListener('mouseup', () => {
     updatePointerUpData(pointers[0]);
 });
