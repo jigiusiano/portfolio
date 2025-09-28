@@ -17,6 +17,14 @@
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   z-index: 1;
+
+  --color1: #61D7A6;
+  --color2: #727272;
+  --color3: #CCCCCC;
+  --color4: #FFFFFF;
+  --color5: #FFFFFF4D;
+  --color6: #B1B1B14D;
+  --color7: #00000040;
 }
 
 a {
