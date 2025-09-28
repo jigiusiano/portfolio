@@ -11,7 +11,7 @@ const Sidebar: React.FC<SidebarProps> = (props) => {
     const { showSidebar, handleSidebar } = props;
 
     return (
-        <nav className={`${styles.verticalNav} ${showSidebar ? styles.closeVerticalNav : {}}`}>
+        <nav className={`${styles.verticalNav} ${showSidebar ? styles.closeVerticalNav : ''}`}>
             <div id={styles.sidebarTop}>
                 <ul id={styles.verticalNavList}>
                     <li id={styles.iconCloseItem}>
