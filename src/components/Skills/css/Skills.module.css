@@ -1,0 +1,65 @@
+.skills {
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px 30px;
+  border-radius: 15px;
+  background-color: var(--color5);
+  backdrop-filter: blur(12px);
+  box-shadow: 0px 0px 20px var(--color7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color1);
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  width: 100%;
+}
+
+.gridMobile {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.techCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border-radius: 12px;
+  background: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.techCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 20px var(--color7);
+}
+
+.techLogo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.techName {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color1);
+  text-align: center;
+}

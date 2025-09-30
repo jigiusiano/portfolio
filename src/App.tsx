@@ -4,6 +4,7 @@ import styles from "./css/App.module.css";
 import { useEffect } from "react";
 import Sections from "./components/Sections/Sections";
 import AboutMe from "./components/AboutMe/AboutMe";
+import Skills from "./components/Skills/Skills";
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -20,6 +21,7 @@ const App: React.FC = () => {
       <Header />
       <Sections>
         <AboutMe />
+        <Skills />
       </Sections>
     </div>
   );
