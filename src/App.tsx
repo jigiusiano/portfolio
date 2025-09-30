@@ -2,6 +2,8 @@ import type React from "react";
 import Header from "./components/Header/Header";
 import styles from "./css/App.module.css";
 import { useEffect } from "react";
+import Sections from "./components/Sections/Sections";
+import AboutMe from "./components/AboutMe/AboutMe";
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -16,6 +18,9 @@ const App: React.FC = () => {
   return (
     <div className={styles.container}>
       <Header />
+      <Sections>
+        <AboutMe />
+      </Sections>
     </div>
   );
 };

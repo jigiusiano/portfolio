@@ -1,0 +1,112 @@
+.aboutMe {
+    width: 70%;
+    height: 400px;
+    border-radius: 10px;
+    background-color: var(--color5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px var(--color7);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.desktop {
+    flex-direction: row;
+}
+
+.pictureDesktop {
+    width: 31%;
+    border-radius: 10px 0 0 10px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mobile {
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("/src/assets/photos/aboutme-picture-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.mobile::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(to top, rgb(0, 0, 0), transparent);
+}
+
+.aboutMeBio {
+    position: relative;
+    z-index: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.aboutMeBio h2 {
+    font-size: 17px;
+    margin-bottom: 1rem;
+}
+
+.aboutMeMobileTitle {
+    color: var(--color4);
+}
+
+.aboutMeDesktopTitle {
+    color: var(--color2);
+}
+
+.aboutMeMobileDescription {
+    color: var(--color4);
+}
+
+.aboutMeDesktopDescription {
+    color: var(--color2);
+}
+
+.downloadCv {
+    background-color: var(--color8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px var(--color7);
+    margin-top: 20px;
+    border: none;
+    color: var(--color4);
+}
+
+.downloadCv:focus {
+    outline: none;
+}
+
+.downloadCv:active {
+    background-color: var(--color9);
+}
+
+.emoji {
+    display: inline-block;
+    animation: wave 2s infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.role {
+    font-weight: bold;
+    color: var(--color1);
+}
+
+.name {
+    font-weight: 600;
+}

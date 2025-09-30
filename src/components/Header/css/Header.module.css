@@ -39,7 +39,7 @@
 
 #navList {
   display: flex;
-  width: 350px;
+  width: 400px;
   justify-content: space-between;
   margin-right: 20px;
 }
@@ -127,6 +127,7 @@ input:checked+.slider::before {
   justify-content: space-between;
   transform: translateX(-100%);
   transition: transform 0.9s ease;
+  z-index: 1;
 }
 
 .closeVerticalNav {

@@ -18,23 +18,23 @@ const Sidebar: React.FC<SidebarProps> = (props) => {
                         <img id={styles.iconClose} src="/src/assets/icons/close.svg" onClick={handleSidebar} />
                     </li>
                     <li>
-                        <a className={styles.navLink} href="#aboutMe" title="About me">
-                            About me
+                        <a className={styles.navLink} href="#aboutMe" title="Sobre mi">
+                            Sobre mi
                         </a>
                     </li>
                     <li>
-                        <a className={styles.navLink} href="#skills" title="Skills">
-                            Skills
+                        <a className={styles.navLink} href="#skills" title="Tecnologías">
+                            Tecnologías
                         </a>
                     </li>
                     <li>
-                        <a className={styles.navLink} href="#projects" title="Projects">
-                            Projects
+                        <a className={styles.navLink} href="#projects" title="Proyectos">
+                            Proyectos
                         </a>
                     </li>
                     <li>
-                        <a className={styles.navLink} href="#contact" title="Contact">
-                            Contact
+                        <a className={styles.navLink} href="#contact" title="Contacto">
+                            Contacto
                         </a>
                     </li>
                 </ul>
@@ -90,23 +90,23 @@ const Header: React.FC = () => {
                                 <>
                                     <ul id={styles.navList}>
                                         <li>
-                                            <a className={styles.navLink} href="#aboutMe" title="About me">
-                                                About me
+                                            <a className={styles.navLink} href="#aboutMe" title="Sobre mi">
+                                                Sobre mi
                                             </a>
                                         </li>
                                         <li>
-                                            <a className={styles.navLink} href="#skills" title="Skills">
-                                                Skills
+                                            <a className={styles.navLink} href="#skills" title="Tecnologías">
+                                                Tecnologías
                                             </a>
                                         </li>
                                         <li>
-                                            <a className={styles.navLink} href="#projects" title="Projects">
-                                                Projects
+                                            <a className={styles.navLink} href="#projects" title="Proyectos">
+                                                Proyectos
                                             </a>
                                         </li>
                                         <li>
-                                            <a className={styles.navLink} href="#contact" title="Contact">
-                                                Contact
+                                            <a className={styles.navLink} href="#contact" title="Contacto">
+                                                Contacto
                                             </a>
                                         </li>
                                     </ul>
