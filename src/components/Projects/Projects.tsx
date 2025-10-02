@@ -7,25 +7,25 @@ const projects = [
     {
         name: "Cambista",
         img: "/src/assets/banners/cambista.png",
-        description: "Plataforma digital para el cambio de divisas de forma rápida y segura.",
+        description: "Cambista es una aplicación asociada al Sistema Eva, que permite la acreditación de máquinas tragamonedas, ruletas electrónicas y Eva Cash.",
         link: "https://evatechno.com/en/cambista-modulo-asistente-de-acreditacion/"
     },
     {
         name: "Boxie",
         img: "/src/assets/banners/boxie.png",
-        description: "Aplicación innovadora para la gestión de almacenamiento inteligente.",
+        description: "Boxie es una app de beneficios que acumula y canjea puntos, para premiar a los clientes de forma segura y personalizada.",
         link: "https://evatechno.com/en/boxie/"
     },
     {
         name: "EVA Chip",
         img: "/src/assets/banners/eva-chip.png",
-        description: "Proyecto de tecnología que integra un chip de identificación y seguridad.",
+        description: "EVA Chip es una app que registra todas las operaciones realizadas en los juegos de mesa con dinero en efectivo en el casino y cuenta la cantidad de fichas utilizadas en cada mesa de juego.",
         link: "https://evatechno.com/en/eva-chip/"
     },
     {
         name: "Diseños de Sitios Web - UNSL",
         img: "/src/assets/banners/disenio-de-sitios-web.png",
-        description: "Colección de diseños web desarrollados para la Universidad Nacional de San Luis.",
+        description: "Landing page de la materia \"Diseños de Sitios Web\" de la Universidad Nacional de San Luis.",
         link: "http://dweb.dirinfo.unsl.edu.ar/"
     }
 ];
