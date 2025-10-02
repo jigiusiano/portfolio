@@ -1,0 +1,78 @@
+.projects {
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px 30px;
+  border-radius: 15px;
+  background-color: var(--color5);
+  backdrop-filter: blur(12px);
+  box-shadow: 0px 0px 20px var(--color7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--color1);
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.gridDesktop {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  width: 100%;
+}
+
+.gridMobile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.card {
+  background: var(--color6);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  text-decoration: none; /* quita subrayado */
+  color: inherit;        /* hereda color de texto */
+  display: block;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.35);
+}
+
+.banner img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.info {
+  padding: 20px;
+  text-align: left;
+}
+
+.info h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--color2);
+}
+
+.info p {
+  font-size: 14px;
+  color: var(--color2);
+  line-height: 1.4;
+}

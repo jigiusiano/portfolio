@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import Sections from "./components/Sections/Sections";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const App: React.FC = () => {
       <Sections>
         <AboutMe />
         <Skills />
+        <Projects />
       </Sections>
     </div>
   );
