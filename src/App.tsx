@@ -6,7 +6,6 @@ import Sections from "./components/Sections/Sections";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
-import Contact from "./components/Contact/Contact";
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -25,7 +24,6 @@ const App: React.FC = () => {
         <AboutMe />
         <Skills />
         <Projects />
-        <Contact />
       </Sections>
     </div>
   );

@@ -1,25 +1,5 @@
-.aboutMe {
-    width: 70%;
-    height: 400px;
-    border-radius: 10px;
-    background-color: var(--color5);
-    backdrop-filter: blur(10px);
-    box-shadow: 0px 0px 10px var(--color7);
-    display: flex;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
-
 .desktop {
     flex-direction: row;
-}
-
-.pictureDesktop {
-    width: 31%;
-    border-radius: 10px 0 0 10px;
-    height: 100%;
-    object-fit: cover;
 }
 
 .mobile {
@@ -40,10 +20,39 @@
     background: linear-gradient(to top, rgb(0, 0, 0), transparent);
 }
 
+.aboutMe {
+    width: 70%;
+    border-radius: 10px;
+    background-color: var(--color5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px var(--color7);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: visible;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 6rem 1rem 1rem 1rem;
+}
+
+.pictureDesktop {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--color5);
+    box-shadow: 0 0 10px var(--color7);
+    z-index: 2;
+}
+
 .aboutMeBio {
     position: relative;
     z-index: 1;
-    padding: 1rem;
+    
     text-align: center;
 }
 
@@ -109,4 +118,5 @@
 
 .name {
     font-weight: 600;
+    color: var(--color1);
 }
