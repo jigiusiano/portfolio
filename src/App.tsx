@@ -6,6 +6,7 @@ import Sections from "./components/Sections/Sections";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
+import SplashCursor from './components/SplashCursor/SplashCursor';
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const App: React.FC = () => {
 
   return (
     <div className={styles.container}>
+      <SplashCursor />
       <Header />
       <Sections>
         <AboutMe />
